@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Support page for Recall Memory Game" />
+  <title>Recall Memory Game — Support</title>
+  <style>
+    :root{
+      --bg:#0b0b0f;
+      --card:#12121a;
+      --text:#e8e8f0;
+      --muted:#a6a6b3;
+      --line:#2a2a38;
+      --accent:#24f0ff;
+      --accent2:#ff3cf2;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif;
+      background: radial-gradient(1200px 700px at 20% 0%, rgba(36,240,255,.12), transparent 60%),
+                  radial-gradient(900px 500px at 80% 10%, rgba(255,60,242,.10), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+    header{
+      padding: 18px 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(18,18,26,.85);
+      backdrop-filter: blur(8px);
+    }
+    h1{
+      margin: 0 0 8px;
+      font-size: 28px;
+      letter-spacing: .2px;
+    }
+    .tag{
+      display:inline-block;
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      padding: 6px 10px;
+      border-radius: 999px;
+      margin-right: 8px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    @media (min-width: 860px){
+      .grid{grid-template-columns: 1.15fr .85fr;}
+    }
+    .card{
+      background: rgba(18,18,26,.85);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+      backdrop-filter: blur(8px);
+    }
+    h2{
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    p{margin: 0 0 10px; color: var(--text)}
+    .muted{color: var(--muted)}
+    ul{margin: 10px 0 0 18px; padding:0}
+    li{margin: 6px 0; color: var(--text)}
+    .btn{
+      display:inline-block;
+      border: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(36,240,255,.12), rgba(255,60,242,.10));
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .footer{
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align:center;
+      opacity:.95;
+    }
+    code{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      padding: 2px 6px;
+      border-radius: 8px;
+      color: var(--text);
+    }
+    .hr{
+      height:1px;
+      background: var(--line);
+      margin: 12px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="tag">Recall Memory Game</div>
+      <div class="tag">Support</div>
+      <h1>Recall Memory Game — Support</h1>
+      <p class="muted">
+        Need help with the app, purchases, or feedback? You’re in the right place.
+      </p>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Contact</h2>
+        <p>
+          Email us at:
+          <a href="mailto:support@YOURDOMAIN.com">support@YOURDOMAIN.com</a>
+        </p>
+        <p class="muted">
+          Please include your device model, iOS version, and what happened (a screenshot helps).
+        </p>
+
+        <div class="hr"></div>
+
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+          <li><strong>How do I play?</strong><br/>
+            During <code>WATCH</code>, memorize the sequence. During <code>REPEAT</code>, tap the pads in the same order.
+            Each round adds a new step. One wrong tap ends the run.
+          </li>
+
+          <li><strong>Sound / effects feel too strong.</strong><br/>
+            Use the sliders on the Main Menu to adjust Sound and Effects intensity.
+          </li>
+
+          <li><strong>I purchased “Remove Ads” but still see ads.</strong><br/>
+            First, reopen the app. If ads still appear, please contact us and we’ll help.
+            (If your build includes “Restore Purchases”, try it as well.)
+          </li>
+
+          <li><strong>My best score didn’t save.</strong><br/>
+            Best Score is stored locally on your device. Reinstalling the app may reset it.
+          </li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Feedback</h2>
+        <p>
+          We read every message. If you have feature ideas or improvements, send them to the support email.
+        </p>
+      </section>
+
+      <aside class="card">
+        <h2>App Info</h2>
+        <p><strong>App:</strong> Recall Memory Game</p>
+        <p><strong>Genre:</strong> Memory / Focus / Brain Training</p>
+
+        <div class="hr"></div>
+
+        <h2>Privacy</h2>
+        <p class="muted">
+          We don’t ask for personal information on this page. If you email support, we only use your message to help you.
+        </p>
+
+        <div class="hr"></div>
+
+        <h2>Quick Actions</h2>
+        <p>
+          <a class="btn" href="mailto:support@YOURDOMAIN.com?subject=Recall%20Support">Email Support</a>
+        </p>
+
+        <p class="muted" style="margin-top:10px">
+          Tip: Replace <code>support@YOURDOM
